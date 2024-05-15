@@ -1,0 +1,117 @@
+.Main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:60px ;
+    z-index: 10;
+}
+
+.Sub{
+    margin:10px;
+    height:520px;
+    width:500px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    padding-top:20px ;
+    border-radius:25px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.9);
+
+}
+.btn , #btn1{
+    margin:15px;
+    position: relative;
+    left:12px;
+    top:4px;
+    bottom:30px;
+    height:35px;
+    width:100px;
+    border-radius: 50px;
+    font-size:15px;
+    border: 2px solid silver;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.8);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:darkred;
+    color: white;
+    font-size:18px;
+}
+#btn1:hover{
+    background-color:green;
+    font-size:18px;
+    color: white;
+
+}
+input{
+    font-size:20px;
+}
+label{
+    font-size:20px;
+}
+
+#dob{
+width:240px;
+/* height:27px; */
+text-align: center;
+font-size:8px;
+position: relative;
+bottom:8px;
+}
+
+.rbtn{
+    width:70px;
+
+}
+#radio1, #radio2{
+height:18px;
+width:79px;
+}
+
+.Sub>pre>input{
+    background-color:transparent;
+  border:1px solid rgb(0, 0, 0);
+  
+}
+
+.Sub>pre>input:hover{
+    background-color:silver;
+   
+}
+
+#user_icon{
+    position: relative;
+    right:26px;
+    bottom:3px;
+}
+#mail_icon{
+    position: relative;
+    right:35px;
+    bottom:3px;
+}
+#pass_icon{
+    position: relative;
+    right:30px;
+    bottom:1px;
+}
+#phone_icon{
+    position: relative;
+    right:28px;
+    bottom:1px;
+}
+#dob_icon{
+    position: relative;
+    right:30px;
+}
+
+/* Background video */
+
+.See_video{
+    /* top:0; */
+    /* object-fit: cover; */
+    width:100%;
+    z-index: -1;
+    position: fixed;
+}
+
+

@@ -1,0 +1,70 @@
+
+.section-1 > img{
+    height:690px;
+    width:100%;
+}
+.section-2{
+    height: 400px;
+    background-image: url(https://www.pranavamschoolofdance.com/wp-content/uploads/2020/08/CTA-Express-Yourself-1.jpg);
+    position: relative;
+    bottom:4px;
+    
+
+}
+.section-2>h1,p{
+    text-align: center;
+    position: relative;
+    top:95px;
+    color: white;
+    line-height:50px;
+}
+.section-2>h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:40px;
+}
+.section-2>p{
+    width:590px;
+    line-height:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    left:473px;
+    top:120px;
+    font-size:20px;
+}
+.section-2>.viewGallery-btn{
+    height:51px;
+    width:196px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #febe10;
+    font-weight:550;
+    border-radius:4px;
+    border: none;
+    font-size: 19px;
+    position: relative;
+    left:660px;
+    top:170px;
+}
+.section-2>.viewGallery-btn:hover{
+    color:white;
+    font-weight: 600;
+
+}
+
+
+
+
+/* Why To Choose */
+
+.why-to-choose-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    position: relative;
+    background-color: black;
+}
+/* .why-to-choose{ */
+  /* position: relative; */
+  /* left:262px; */
+/*  */
+/* } */
